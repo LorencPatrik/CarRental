@@ -1,0 +1,12 @@
+spring.datasource:
+  url: jdbc:mysql://localhost/carrental7?createDatabaseIfNotExist=true&serverTimezone=UTC
+  username: root
+  password:
+  driver-class-name: com.mysql.cj.jdbc.Driver
+
+spring:
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+    show-sql: true
